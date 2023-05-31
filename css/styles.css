@@ -253,6 +253,19 @@ img {
   | Abaut styles
   |============================
 */
+.abaut-icons {
+  fill: var(--color-navy-blue);
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 264px;
+  min-height: 112px;
+  background: var(--color-cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 .abaut-section {
   padding-top: 120px;
   padding-bottom: 120px;
