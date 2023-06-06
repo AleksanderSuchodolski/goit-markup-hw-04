@@ -338,16 +338,14 @@ img {
   border-radius: 50%;
   fill: var(--color-cloud);
   background-color: var(--color-iris);
+  
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link:hover,
 .socials-link:focus {
   background-color: var(--color-ocean);
-}
-
-.socials-item {
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /**
   |============================
