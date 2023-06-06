@@ -149,6 +149,9 @@ img {
   color: var(--color-navy-blue);
   padding-top: 24px;
   padding-bottom: 24px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .desc:hover,
 .desc:focus {
@@ -234,9 +237,7 @@ img {
   height: 4px;
   bottom: -1px;
   left: 0;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 /**
