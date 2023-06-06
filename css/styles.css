@@ -189,6 +189,9 @@ img {
 .header-contact {
   font-style: normal;
   color: var(--color-slate);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contact:hover,
 .header-contact:focus {
@@ -235,11 +238,7 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-contact-item {
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 /**
   |============================
   | Hero styles
