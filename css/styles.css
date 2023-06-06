@@ -338,7 +338,7 @@ img {
   border-radius: 50%;
   fill: var(--color-cloud);
   background-color: var(--color-iris);
-  
+
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -415,7 +415,7 @@ img {
   |============================
 */
 .customers-section {
-  padding-top: 148px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .customers-title-list {
