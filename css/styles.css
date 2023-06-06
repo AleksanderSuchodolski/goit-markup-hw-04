@@ -428,7 +428,10 @@ img {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   text-align: center;
-  paddinpx;g: 16px 32
+  
+  transition-property: background-color color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-title-item:hover,
 .customers-title-item:focus {
