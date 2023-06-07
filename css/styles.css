@@ -425,13 +425,9 @@ img {
 .customers-title-item {
   width: 168px;
   height: 88px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
+
   text-align: center;
 
-}
-.customers-icon {
-  fill: currentColor;
 }
 .customers-link {
   width: 100%;
@@ -448,6 +444,9 @@ img {
 .customers-link:focus {
   border-color: var(--color-ocean);
   color: var(--color-ocean);
+}
+.customers-icon {
+  fill: currentColor;
 }
 /**
   |============================
