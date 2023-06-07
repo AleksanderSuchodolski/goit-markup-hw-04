@@ -278,10 +278,7 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-}
+
 /**
   |============================
   | Abaut styles
@@ -425,9 +422,7 @@ img {
 .customers-title-item {
   width: 168px;
   height: 88px;
-
   text-align: center;
-
 }
 .customers-link {
   width: 100%;
@@ -505,4 +500,49 @@ margin-bottom: 16px;
 }
 .footer-container-info {
   margin-right: 120px;
+}
+/**
+  |============================
+  | Modal window styles
+  |============================
+*/
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms ccubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 408px;
+  min-height: 584px;
+  background-color: var(--color-dairy);
+  border-radius: 4px;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.modal-close-btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  background: var(--color-cornflower);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  
 }
