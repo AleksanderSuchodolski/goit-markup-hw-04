@@ -386,7 +386,7 @@ img {
 }
 /**
   |============================
-  | Card set
+  | Card section style
   |============================
 */
 .card-set {
@@ -405,6 +405,10 @@ img {
 .card-set-link:hover,
 .card-set-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+.card-set-link:hover .overlay,
+.card-set-link:focus .overlay {
   transform: translateY(0%);
 }
 .card-set-item:hover {
